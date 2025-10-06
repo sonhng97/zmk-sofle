@@ -1,4 +1,4 @@
-name: Build ZMK firmware
+name: Build ZMK firmware with helper
 on:
   workflow_dispatch:
   push:
@@ -7,5 +7,5 @@ on:
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: urob/zmk/.github/workflows/build-user-config.yml@build-with-submodules
 
