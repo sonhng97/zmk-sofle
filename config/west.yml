@@ -9,11 +9,9 @@ manifest:
   #  - name: gpeye
   #    url-base: https://github.com/GPeye
   projects:
-    - name: urob
-      url-base: https://github.com/urob 
-#    - name: eyelash_sofle
-#      url: https://github.com/a741725193/zmk-sofle
-#      revision: main
+    - name: eyelash_sofle
+      url: https://github.com/a741725193/zmk-sofle
+      revision: main
     - name: zmk
       remote: zmkfirmware
       revision: main
